@@ -16,7 +16,7 @@ This project introduces an **Agentic AI architecture** that integrates reflectio
  The full workflow looks like this:
  
 
-![Agentic Underwriting Pipeline](./images/workflow.pdf)
+![Agentic Underwriting Pipeline](./images/workflow.png)
 
 and I gave more details at the Actuarial Research Conference using these [slides](./ARC2025_Robert_Richardson.pdf).
 
