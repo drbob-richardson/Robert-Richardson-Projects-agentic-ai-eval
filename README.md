@@ -22,6 +22,25 @@ and I gave more details at the Actuarial Research Conference using these [slides
 
 ---
 
+##  On Automation, LLMs, and Agentic AI
+
+There’s a fundamental difference between **automation**, **LLMs**, and **LLMs embedded within AI systems** — and understanding that difference is essential when designing real-world intelligent workflows.
+
+**Automation** is deterministic. It follows predefined rules and executes them identically every time — excellent for repeatable tasks, but blind to ambiguity or context.
+
+**LLMs** are probabilistic. They generate text, not action. They can summarize, classify, or reason in a single pass, but they don’t plan, remember, or pursue a goal. They answer once and forget.
+
+**Agentic AI**, by contrast, embeds LLMs within an architecture that gives them *structure, state, and purpose*. Agents can reflect, route tasks, query external tools, and decide when to stop or escalate. They don’t just respond — they **operate**.
+
+In this project, that difference is tangible:  
+Automation can flag a missing field.  
+An LLM can describe the guideline it violates.  
+But an **Agentic AI** system can recognize uncertainty, retrieve the missing context, invoke a logistic model, and determine whether to approve, reject, or escalate — while explaining *why*.  
+
+That’s not just smarter automation — it’s structured intelligence.
+
+---
+
 ##  Architecture
 
 | Component | Description |
