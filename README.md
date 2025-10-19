@@ -13,7 +13,12 @@ This project introduces an **Agentic AI architecture** that integrates reflectio
 - Escalate complex cases for review,
 - Execute a final logistic regression decision for acceptance or rejection.
 
- The full workflow is illustrated in the [slides](./ARC2025_Robert_Richardson.pdf).
+ The full workflow looks like this:
+ 
+
+![Agentic Underwriting Pipeline](./images/underwriting_pipeline.png)
+
+and I gave more details at the Actuarial Research Conference using these [slides](./ARC2025_Robert_Richardson.pdf).
 
 ---
 
