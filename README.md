@@ -24,20 +24,23 @@ and I gave more details at the Actuarial Research Conference using these [slides
 
 ##  On Automation, LLMs, and Agentic AI
 
-There’s a fundamental difference between **automation**, **LLMs**, and **LLMs embedded within AI systems** — and understanding that difference is essential when designing real-world intelligent workflows.
+When people talk about “AI,” they often mix three very different ideas.  
+In reality, **automation**, **LLMs**, and **Agentic AI** represent distinct levels of capability and structure:
 
-**Automation** is deterministic. It follows predefined rules and executes them identically every time — excellent for repeatable tasks, but blind to ambiguity or context.
+| System Type | Core Behavior | Strength | Limitation | Example |
+|--------------|----------------|-----------|-------------|----------|
+| **Automation** | Executes deterministic, rule-based steps (if–then logic) | Speed, consistency | Cannot reason or adapt to ambiguity | ETL pipelines, underwriting checklists |
+| **LLM (Large Language Model)** | Generates probabilistic responses to prompts | Contextual understanding, flexible reasoning | No memory, planning, or self-correction | GPT-based chat answering a single query |
+| **Agentic AI (LLM + Architecture)** | Embeds LLMs within orchestrated systems that reflect, plan, and act | Goal-directed reasoning, reflection, tool use | Complexity of design, orchestration overhead | Multi-agent workflow combining LLMs, APIs, and logistic models |
 
-**LLMs** are probabilistic. They generate text, not action. They can summarize, classify, or reason in a single pass, but they don’t plan, remember, or pursue a goal. They answer once and forget.
+**Agentic AI** represents the third layer — where an LLM doesn’t just generate language, but operates as part of a structured decision-making system.  
+Agents can **reflect on their reasoning**, **route tasks**, and **decide when to stop, escalate, or query external data**.
 
-**Agentic AI**, by contrast, embeds LLMs within an architecture that gives them *structure, state, and purpose*. Agents can reflect, route tasks, query external tools, and decide when to stop or escalate. They don’t just respond — they **operate**.
-
-In this project, that difference is tangible:  
+In this project, that distinction is practical:  
 Automation can flag a missing field.  
-An LLM can describe the guideline it violates.  
-But an **Agentic AI** system can recognize uncertainty, retrieve the missing context, invoke a logistic model, and determine whether to approve, reject, or escalate — while explaining *why*.  
+An LLM can describe which guideline was violated.  
+But an **Agentic AI** system can recognize ambiguity, retrieve the missing data, evaluate it, and determine whether to approve, reject, or escalate — all while explaining *why*.
 
-That’s not just smarter automation — it’s structured intelligence.
 
 ---
 
